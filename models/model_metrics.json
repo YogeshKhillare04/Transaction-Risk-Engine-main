@@ -1,0 +1,76 @@
+{
+    "best_model": "xgboost",
+    "model_metrics": {
+        "logistic_regression": {
+            "threshold": 0.5,
+            "roc_auc": 0.9721687370080279,
+            "pr_auc": 0.7159122424484009,
+            "precision": 0.06097560975609756,
+            "recall": 0.9183673469387755,
+            "f1_score": 0.11435832274459974,
+            "confusion_matrix": [
+                [
+                    55478,
+                    1386
+                ],
+                [
+                    8,
+                    90
+                ]
+            ]
+        },
+        "random_forest": {
+            "threshold": 0.5,
+            "roc_auc": 0.9803498214142157,
+            "pr_auc": 0.820997615195776,
+            "precision": 0.8181818181818182,
+            "recall": 0.826530612244898,
+            "f1_score": 0.8223350253807107,
+            "confusion_matrix": [
+                [
+                    56846,
+                    18
+                ],
+                [
+                    17,
+                    81
+                ]
+            ]
+        },
+        "xgboost": {
+            "threshold": 0.5,
+            "roc_auc": 0.980419626348007,
+            "pr_auc": 0.841364178088326,
+            "precision": 0.46774193548387094,
+            "recall": 0.8877551020408163,
+            "f1_score": 0.6126760563380281,
+            "confusion_matrix": [
+                [
+                    56765,
+                    99
+                ],
+                [
+                    11,
+                    87
+                ]
+            ]
+        }
+    },
+    "best_business_thresholds": {
+        "review_threshold": 0.5,
+        "decline_threshold": 0.9,
+        "fraud_capture_rate": 0.8878,
+        "approval_rate": 0.9967,
+        "review_rate": 0.0014,
+        "decline_rate": 0.0019,
+        "fraud_loss": 1826.5,
+        "review_cost": 395.0,
+        "false_positive_cost": 250.0,
+        "total_cost": 2471.5,
+        "fraud_approved": 11.0,
+        "fraud_reviewed": 5.0,
+        "fraud_declined": 82.0,
+        "genuine_declined": 25.0,
+        "genuine_reviewed": 74.0
+    }
+}
