@@ -12,4 +12,3 @@ __pycache__/
 models/*.pkl
 data/raw/*.zip
 data/raw/creditcard.csv
-data/processed/scored_test_transactions.csv
